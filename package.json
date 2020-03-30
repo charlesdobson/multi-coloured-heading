@@ -1,7 +1,7 @@
 {
   "name": "multi-coloured-heading",
   "version": "1.0.1",
-  "description": "Renders a simple h1 element with multi colours!",
+  "description": "Renders a simple multi-coloured h1 or h2 element with the provided text",
   "author": "charlesdobson",
   "license": "MIT",
   "repository": "charlesdobson/multi-coloured-heading",
