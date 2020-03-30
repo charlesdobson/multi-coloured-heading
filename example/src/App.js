@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'multi-coloured-heading'
+import { MultiColouredHeadingOne, MultiColouredHeadingTwo } from 'multi-coloured-heading'
+
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <MultiColouredHeadingOne text='Modern React component module' />
+        <MultiColouredHeadingTwo text='Modern React component module' />
       </div>
     )
   }
