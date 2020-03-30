@@ -15,14 +15,13 @@ npm install --save multi-coloured-heading
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'multi-coloured-heading'
+import { MultiColouredHeadingOne, MultiColouredHeadingTwo } from 'multi-coloured-heading'
 
-class Example extends Component {
-  render () {
+const Example = () => {
     return (
-      <MyComponent />
+      <MultiColouredHeadingOne text="This is a title" />
+      <MultiColouredHeadingTwo text="This is a subtitle" />
     )
-  }
 }
 ```
 
